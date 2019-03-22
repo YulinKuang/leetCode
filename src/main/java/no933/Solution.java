@@ -1,9 +1,11 @@
+package no933;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Solution933 {
+class Solution {
 
-    public Solution933() {
+    public Solution() {
         queue = new LinkedList<>();
     }
 

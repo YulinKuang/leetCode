@@ -1,6 +1,8 @@
+package no561;
+
 import java.util.Arrays;
 
-public class Solution561 {
+public class Solution {
     public int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
         int sum = 0;

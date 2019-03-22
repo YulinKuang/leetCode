@@ -1,7 +1,9 @@
+package no917;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Solution917 {
+class Solution {
     public int[] sortArrayByParityII(int[] A) {
         LinkedList<Integer> evenNums = new LinkedList<Integer>();
         LinkedList<Integer> oddNums = new LinkedList<Integer>();

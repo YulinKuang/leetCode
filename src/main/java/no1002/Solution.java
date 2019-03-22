@@ -1,8 +1,10 @@
+package no1002;
+
 import java.util.*;
 
 import static java.lang.Integer.min;
 
-public class Solution1002 {
+public class Solution {
     public List<String> commonChars(String[] A) {
         HashMap<Character, Integer>[] charsCount = new HashMap[A.length];
         for (int i = 0; i < A.length; i++) {

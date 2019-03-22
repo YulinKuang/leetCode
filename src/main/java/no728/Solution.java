@@ -1,7 +1,9 @@
+package no728;
+
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution728 {
+public class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
         ArrayList<Integer> result = new ArrayList<>();
         for (int i = left; i <= right; i++)

@@ -1,4 +1,6 @@
-class Solution999 {
+package no999;
+
+class Solution {
     public int numRookCaptures(char[][] board) {
         int x = 0, y = 0;
         for (int i = 0; i < board.length; i++)

@@ -1,3 +1,4 @@
+package no965;
 
 class TreeNode {
     int val;
@@ -5,7 +6,7 @@ class TreeNode {
     TreeNode right;
     TreeNode(int x) { val = x; }
 }
-public class Solution965 {
+public class Solution {
     public boolean isUnivalTree(TreeNode root) {
         if (root.left == null && root.right == null) return true;
         if (root.left != null && root.right == null)

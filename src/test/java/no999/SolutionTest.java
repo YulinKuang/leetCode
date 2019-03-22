@@ -1,12 +1,14 @@
+package no999;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Solution999Test {
+public class SolutionTest {
 
     @Test
     public void numRookCaptures() {
-        Solution999 solution = new Solution999();
+        Solution solution = new Solution();
         char[][] board1 = new char[][]{
                 {'.','.','.','.','.','.','.','.'},
                 {'.','.','.','p','.','.','.','.'},

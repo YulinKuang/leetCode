@@ -1,4 +1,6 @@
-class Solution852 {
+package no852;
+
+class Solution {
     public int peakIndexInMountainArray(int[] A) {
         int left = 0, right = A.length - 1;
         while(left < right) {
@@ -14,7 +16,7 @@ class Solution852 {
     }
 }
 
-//class Solution852 {
+//class no852.Solution {
 //    public int peakIndexInMountainArray(int[] A) {
 //        int lo = 0, hi = A.length - 1;
 //        while (lo < hi) {

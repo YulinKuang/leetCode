@@ -1,5 +1,7 @@
 .idea/
 .DS_Store
+.attach_pid*
+target/
 
 # Compiled class file
 *.class
