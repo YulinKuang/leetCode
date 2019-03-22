@@ -1,17 +1,17 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.LinkedList;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class Solution1002Test {
+class Solution1002Test {
 
     @Test
-    public void commonChars() {
+    void commonChars() {
         Solution1002 solution = new Solution1002();
-        String[] A = new String[]{"bella","label","roller"};
-        String[] expected = new String[]{"e","l","l"};
-        LinkedList<String> actual = (LinkedList<String>) solution.commonChars(A);
-        assertArrayEquals(expected,actual.toArray());
+        String[] input = new String[]{"bella","label","roller"};
+        LinkedList<String> output = (LinkedList<String>) solution.commonChars(input);
+        LinkedList<String> expected = new LinkedList<String>(){{add("l");add("l");add("e");}};
+        assertLinesMatch(expected, output);
     }
 }
