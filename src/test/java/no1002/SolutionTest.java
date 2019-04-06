@@ -1,3 +1,5 @@
+package no1002;
+
 import no1002.Solution;
 import org.junit.jupiter.api.Test;
 
